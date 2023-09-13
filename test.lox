@@ -1,0 +1,13 @@
+class Fruit {
+  init(type){
+    this.type = type;
+  }
+
+  helloWorld()
+  {
+    print "Hello World, " + "I'm " + this.type;
+  }
+}
+
+var apple = Fruit("Apple");
+apple.helloWorld();
